@@ -1,0 +1,26 @@
+# Core
+streamlit>=1.35.0
+python-dotenv>=1.0.0
+
+# Transcription (local Whisper)
+openai-whisper>=20231117
+
+# Audio/Video processing
+pydub>=0.25.1
+ffmpeg-python>=0.2.0
+
+# Embeddings (local sentence-transformers)
+sentence-transformers>=2.7.0
+
+# Vector store
+chromadb>=0.5.0
+
+# Text chunking
+langchain-text-splitters>=0.2.0
+
+# LLM via OpenRouter (OpenAI-compatible)
+openai>=1.30.0
+
+# Utilities
+numpy>=1.26.0
+tqdm>=4.66.0
